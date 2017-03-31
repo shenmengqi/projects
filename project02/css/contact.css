@@ -1,0 +1,110 @@
+.main-top{
+	position: absolute;
+	top: 38px;
+	left: calc(12% + 330px);
+	height: 40px;
+	line-height: 40px;
+	color: #817f7f;
+	font-size: 15px;
+}
+@media screen and (max-width: 1115px){
+	.main-top{
+		left: 330px;
+	}
+}
+.main-right{
+	margin-top: 100px;
+	float: right;
+	width: calc(100% - 330px);
+	text-align: left;
+	font-size: 15px;
+	color: #999;
+}
+.main-right-con1 {
+	text-align: center;
+	position: relative;
+}
+.main-right-con1 h3{
+	color: #8f8d8d;
+	margin-bottom: 20px;
+}
+.main-right-con1-bottom{
+	width: 100%;
+	min-width: 606px;
+	text-align: left;
+	margin:0 auto;
+	margin-top: 30px;
+	position: relative;
+}
+.main-right-con1-left{
+	position: absolute;
+	top: 30px;
+	left: 0;
+}
+.main-right-con1-right{
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+.main-right-con2,.main-right-con3{
+	margin-top: 190px;
+	text-align: center;
+}
+.main-right-con1 h3,.main-right-con2 h3,.main-right-con3 h3{
+	color: #8f8d8d;
+}
+.main-right-con2 form{
+	margin-top: 40px;
+}
+.table-tr-td1{
+	text-align: right;
+	width: 20%;
+}
+.table-tr-td2{
+	text-align: center;
+	width: 25%;
+}
+.table-tr-td2 input{
+	width: 100%;
+	height: 30px;
+	border: 1px solid #e1e1e1;
+}
+.table-tr-td3{
+	text-align: center;
+	width: 85%;
+}
+.table-tr-td3 textarea{
+	width: 100%;
+	height: 60px;
+	border: 1px solid #e1e1e1;
+}
+.table-tr-td4{
+	width: 10%;
+}
+.table-tr1{
+	height: 30px;
+	line-height: 30px;
+}
+.table-tr3{
+	height: 60px;
+	line-height: 60px;
+}
+.table-tr2{
+	height: 10px;
+}
+.main-right-con2 button{
+	width: 30%;
+	height: 30px;
+	background-color: #3399fe;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+}
+.table-tr-td5{
+	text-align: right;
+	width: 25%;
+}
+.table-tr-td6{
+	text-align: left;
+	width: 25%;
+}
